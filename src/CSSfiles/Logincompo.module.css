@@ -1,0 +1,140 @@
+
+.container
+{
+    background:linear-gradient(pink,blue);
+    /* height:50; */
+    /* max-width:240vw; */
+    background-repeat:no-repeat;
+    z-Index:-1;
+    height:100vh ; 
+    position:absolute;
+    background-size:cover;
+    background-attachment:fixed;
+}
+.containerdiv1
+{
+    background-color:white;
+    position:relative;
+     margin-left:25%;
+    color: black;
+    border-radius: 20px;
+    margin-top:120px;
+    box-shadow: 10px 10px 5px 5px  rgb(0, 0, 0);
+    width: 40%;
+    height: 90%;
+    background-attachment: fixed;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    z-index: +1;
+}
+.containerdiv2
+{
+    opacity:1;
+    /* color:white; */
+    color: black;
+    padding: 20px;
+    position:relative;
+    margin-top: 30px;
+    z-index: +1;
+}
+.error{
+    color: red;
+    margin-left: 45px;
+}
+.loginbutton
+{
+    background-Color:rgb(48, 62, 187);
+    width:fit-content;
+    border-Radius:10px;
+    margin-Left:30px; 
+    color: white;
+    font-size: medium;
+
+   
+}
+.login-button:hover
+{
+    background-Color:rgb(22, 26, 138);
+    border-Radius:10px;
+}
+.input
+{
+    margin-left: 20px;
+    width: 100%;
+    border-radius:10px;
+    height:25px;
+}
+.alreadyuser
+{
+    color:black;
+    font-size: 20px;
+    margin-left: 55px;
+}
+Link:hover::after
+{
+    color: white;
+}
+@media only screen and (max-width: 768px) {
+    .container {
+        width: auto;
+        /* max-width: 100%; */
+        height:100vh; 
+        background-size: cover;
+        padding-top: 20px;
+  
+    }
+     .containerdiv1 {
+        margin-top:px;
+        padding-top: 0;
+        width: 100vw;
+        box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.3);
+        margin-left: 0;
+        height: auto;
+        padding-bottom: 20px;
+    }
+.containerdiv2
+{
+opacity:1;
+
+color: black;
+
+position:relative;
+margin: 0;
+
+}
+    .error {
+        margin-left: 10px; 
+    }
+    
+    .registerbutton {
+        width: 90%; 
+        height: 35px; 
+    }
+    
+    .registerbutton:hover {
+        border: 3px solid saddlebrown; 
+    }
+    
+    .input {
+        margin-left: 0; 
+        width: 100%;
+        height: 35px; 
+    }
+    
+    .alreadyuser {
+        font-size: 16px; 
+        margin-left: 0; 
+        width: 100%; 
+    }
+    
+    .signupwithgoogle {
+        background-color: red;
+        color: white;
+        width: 90%; 
+        padding: 10px; 
+        text-align: center; 
+    }
+    
+    .icon {
+        margin-top: 5px; 
+}
+}

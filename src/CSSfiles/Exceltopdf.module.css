@@ -1,0 +1,66 @@
+.headingetp
+{  
+     border-radius:20px;
+     text-align:center;
+     margin-top:10px;
+     color:black;
+}
+.heading1etp
+{
+    color:black;
+    padding:5px;
+}
+.heading2etp
+{    
+        color:black; 
+        text-align: center;
+        border-radius:20px;
+        padding: 5px;
+ }
+ .imageclassetp
+ {
+    border-radius: 20px;
+    border:5px solid green;
+    margin-top: 50px;
+ }
+ .btnetp
+ {
+     background-color: green;
+     padding-top:1.2px;
+      color: white;
+      font-size: 20px;
+
+ }
+ .container4
+{
+       background-image: url('/public/exceltopdfbg.jpg');
+       background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center; 
+        background-attachment: fixed; 
+        height: 100vh;
+        margin: 0; 
+        width: 100vw; 
+        overflow-x: hidden;
+     
+}
+.txtcolor
+{
+    color:black;
+    font-family: monospace;
+}
+.buttons
+{
+    background-color: rgb(28, 147, 28);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 10px;
+    width:auto;
+  
+}
+.buttons:hover
+{
+    background-color: blue;
+}

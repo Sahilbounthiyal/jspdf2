@@ -1,0 +1,165 @@
+
+.container
+{
+ 
+    background:linear-gradient(pink,blue);
+ 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; 
+    background-attachment: fixed; 
+    height: 100vh;
+    margin: 0; 
+    width: 100vw; 
+    overflow-x: hidden; 
+
+}
+.containerdiv1
+{
+ background-color:white;
+ position:relative;
+ margin-left:35%;
+ color: black;
+ border-radius: 20px;
+ box-shadow: 10px 10px 5px 5px  rgb(0, 0, 0);
+ width: 40%;
+ height: 90%;
+ background-attachment: fixed;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.containerdiv2
+{
+opacity:1;
+/* color:white; */
+color: black;
+padding: 20px;
+position:relative;
+margin-top: 30px;
+
+}
+.error{
+    color: red;
+    margin-left: 45px;
+}
+.registerbutton
+{
+    background-Color:blue;
+    width:fit-content;
+    border-Radius:20px;
+    font-weight: bold;
+    color: orange;
+    font-size: large;
+    border: 2px orange;
+    width: 50%;
+    height: 40px;
+    color: white;
+
+}
+.registerbutton:hover
+{
+    background-Color:rgb(22, 22, 183);
+    width:50%;
+    border-Radius:10px;
+    color:white;
+    border:5px saddlebrown;
+}
+.input
+{
+    margin-left: 20px;
+    width: 100%;
+    border-radius:10px;
+    height:25px;
+    
+}
+.alreadyuser
+{
+    color: black;
+    font-size: 20px;
+    margin-left: 55px;
+    width:40%;
+    
+}
+.alreadyuser:hover{
+    color:blue;
+}
+.signupwithgoogle{
+    color: white;
+    background-color: red;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.icon{
+    margin-top: 0px;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: auto;
+        /* max-width: 100%; */
+        height:auto;
+        background-size: cover;
+        padding-top: 20px;
+  
+    }
+    
+    .containerdiv1 {
+        padding-top: 0;
+        width: 100vw;
+        box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.3);
+        margin: 0;
+    }
+.containerdiv2
+{
+opacity:1;
+
+color: black;
+
+position:relative;
+margin: 0;
+
+}
+    .error {
+        margin-left: 10px; 
+    }
+    
+    .registerbutton {
+        width: 90%; 
+        height: 35px; 
+    }
+    
+    .registerbutton:hover {
+        border: 3px solid saddlebrown; 
+    }
+    
+    .input {
+        margin-left: 0; 
+        width: 100%;
+        height: 35px; 
+    }
+    
+    .alreadyuser {
+        font-size: 16px; 
+        margin-left: 0; 
+        width: 100%; 
+    }
+    
+    .alreadyuser:hover {
+        color: blue;
+    }
+    
+    .signupwithgoogle {
+        background-color: red;
+        color: white;
+        width: 90%; 
+        padding: 10px; 
+        margin-bottom: 40px;
+        text-align: center; 
+    }
+    
+    .icon {
+        margin-top: 5px; 
+}
+}

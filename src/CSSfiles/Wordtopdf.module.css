@@ -1,0 +1,52 @@
+.headingwtp
+{
+    border-radius:20px;
+     text-align:center;
+     margin-top:10px;
+     color: white;
+}
+.heading2wtp
+{ 
+         color:white;
+        text-align: center;
+        border-radius: 20px;
+        padding: 5px;
+ }
+ .imageclasswtp
+ {
+    
+    width:auto;
+    height:auto;
+    border-radius: 20px;
+    margin-top: 40px;
+    border: 5px solid blue;
+    margin-right: 20px;
+    
+ }
+ .btnwtp
+ {
+      background:rgb(205, 57, 57);
+      margin-right:10px;
+      margin-top:50px;
+      padding: auto;
+      border-radius:15px;
+       
+ }
+ .btnwtp:hover
+ {
+     background-color: blue;
+ }
+ .container{
+  
+       background-image: url('/public/wordtopdfbg.jpg');
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center center; 
+       background-attachment: fixed;
+       height: 100vh;
+       margin: 0; 
+       width: 100vw; 
+       overflow-x: hidden;  
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     
+}

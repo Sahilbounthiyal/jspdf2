@@ -1,0 +1,43 @@
+.container
+{
+    background-image: url('/public/addpagenumbderbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; 
+    background-attachment: fixed; 
+    height: 100vh;
+    width: 100vw; 
+    overflow-x: hidden; 
+}
+.image
+{
+    border: 5px solid red;
+    border-style:dashed;
+    box-shadow: 3px 3px black;
+}
+.font{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+
+}
+.buttonc
+{
+    background-color:rgb(67, 160, 192);
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    margin-left:10px;
+    box-shadow: 3px 3px black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.buttonc:hover
+{
+    background-color:blue;
+    color: white;
+}
+.icon
+{
+  color:red;
+}

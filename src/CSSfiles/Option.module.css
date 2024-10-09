@@ -1,0 +1,54 @@
+.cardd
+ {
+    
+    margin:40px;
+    background: linear-gradient(15deg,rgb(53, 73, 163), rgb(51, 156, 190));
+    border-radius: 15px;
+    height: 500px;
+}
+@keyframes moveButton {
+       0% {
+           transform: translateY(0);
+       }
+       50% {
+           transform: translateY(-10px); 
+       }
+       100% {
+           transform: translateY(0); 
+       }
+   }
+.container2
+{
+       background-image: url('/public/optionsbg.jpg');
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center center; 
+       background-attachment: fixed; 
+       height: 100vh;
+       margin: 0; 
+       width: 100vw; 
+       overflow-x: hidden; 
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.button
+{
+       background-color: blue;
+       color: white;
+       border-radius: 20px;
+       transition: background-color 1.2s ease, transform 0.8s ease;
+}
+.button:hover::after
+{
+       background-color:orange;
+       content: " >> ";
+       
+}
+.button:hover{
+       background-color:orange;
+       border-radius: 20px;
+       transform: translateY(-10px);
+       animation: moveButton 1s ease-in-out infinite;
+}
+::-webkit-scrollbar {
+       display: none;
+     }
